@@ -1,0 +1,46 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.15);
+    z-index: 1;
+}
+
+.logo{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nova Script', cursive;
+    font-weight: bolder;
+    font-size: 32px;
+    color:#536AF5
+}
+
+.logo span img{
+    height: 60px;
+    margin-left: 60px;
+}
+
+.nav-items{
+    flex-grow: 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.nav-item{
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #000;
+}
+

@@ -1,0 +1,52 @@
+.signup-container{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translateX(-50%);
+    height: 450px;
+    width: 400px;
+    background-color: #fff;
+    margin-top: 65px;
+}
+
+.signup-heading-container{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e8e8e8;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.input-group{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.input-container{
+    border-radius: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px 0px;
+    border: 1px solid #e8e8e8;
+}
+
+.input-container input {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 25px;
+    outline: none;
+    border: transparent;
+}
+
+.button-container{
+    text-align: center;
+}
