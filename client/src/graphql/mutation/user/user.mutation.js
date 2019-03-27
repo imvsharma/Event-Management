@@ -8,5 +8,4 @@ mutation createUser($email: String!, $password: String!) {
     }
   }
 `
-
 export default CREATE_USER;
